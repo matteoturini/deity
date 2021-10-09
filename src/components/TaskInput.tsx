@@ -6,7 +6,7 @@ interface ITaskInputProps {
 
 export default function TaskInput(props: ITaskInputProps) {
     const [value, setValue] = useState<string>("");
-    
+
     const submit = () => {
         props.onTaskCreate(value);
         setValue("");
