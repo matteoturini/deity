@@ -1,7 +1,7 @@
 {
   "name": "chitchat",
   "version": "0.0.0",
-  "license": "GPL-v3-or-later",
+  "license": "GPL-3.0-or-later",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
